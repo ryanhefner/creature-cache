@@ -1,0 +1,75 @@
+{
+  "name": "creature-cache",
+  "version": "0.1.0",
+  "description": "A cache that can be generated server-side and brought back to life client-side.",
+  "repository": "ryanhefner/creature-cache",
+  "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhefner/creature-cache/issues"
+  },
+  "homepage": "https://github.com/ryanhefner/creature-cache#readme",
+  "keywords": [
+    "cache",
+    "rehydrate",
+    "resurrect"
+  ],
+  "files": [
+    "es",
+    "src",
+    "types",
+    "umd",
+    "index.js"
+  ],
+  "directories": {
+    "lib": "/src"
+  },
+  "main": "index.js",
+  "module": "es/index.js",
+  "jsnext:main": "src/index.js",
+  "types": "types",
+  "scripts": {
+    "clean": "rm -f index.js && rm -rf es && rm -rf umd",
+    "prebuild": "npm run clean",
+    "build": "node ./tools/build.js",
+    "watch": "babel ./src -d . --ignore __mocks__,__tests__,**/*.test.js --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "node ./tools/build.js",
+    "push-release": "git push origin master && git push --tags",
+    "dtslint": "dtslint types",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "flatted": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-dev-expression": "^0.2.2",
+    "coveralls": "^3.0.6",
+    "dtslint": "^0.9.1",
+    "gzip-size": "^5.1.1",
+    "jest": "^24.9.0",
+    "pretty-bytes": "^5.3.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "typescript": "^3.5.3"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js"
+    ]
+  }
+}
