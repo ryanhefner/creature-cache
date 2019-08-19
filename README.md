@@ -6,7 +6,7 @@
 [![CircleCI](https://circleci.com/gh/ryanhefner/creature-cache.svg?style=shield)](https://circleci.com/gh/ryanhefner/creature-cache)
 [![Greenkeeper badge](https://badges.greenkeeper.io/ryanhefner/creature-cache.svg)](https://greenkeeper.io/)
 
-An in-memory cache that can be restored/rehydrated via a string or array to rebuild
+An in-memory cache that can be restored/rehydrated (brought back to life) via a string or array to rebuild
 the cache Map.
 
 This is particularly handy for frameworks that can generate a cache
