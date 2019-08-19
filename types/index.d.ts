@@ -4,7 +4,7 @@ export interface CacheProps {
   [key: string]: any;
 }
 
-export class Cache {
+export default class Cache {
   constructor(cache: CacheProps);
 
   clear(): Cache;
