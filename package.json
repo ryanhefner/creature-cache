@@ -12,7 +12,9 @@
   "keywords": [
     "cache",
     "rehydrate",
-    "resurrect"
+    "resurrect",
+    "react-contentful",
+    "react-request-block"
   ],
   "files": [
     "es",
