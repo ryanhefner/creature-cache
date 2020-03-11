@@ -1,9 +1,11 @@
 # 🧟‍♂️ creature-cache
 
-[![npm version](https://badge.fury.io/js/creature-cache.svg)](https://badge.fury.io/js/creature-cache)
-[![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/ryanhefner/creature-cache/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/creature-cache?branch=master)
-[![CircleCI](https://circleci.com/gh/ryanhefner/creature-cache.svg?style=shield)](https://circleci.com/gh/ryanhefner/creature-cache)
+![npm](https://img.shields.io/npm/v/creature-cache?style=flat-square)
+![NPM](https://img.shields.io/npm/l/creature-cache?style=flat-square)
+![npm](https://img.shields.io/npm/dt/creature-cache?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/creature-cache?style=flat-square)
+![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/creature-cache?style=flat-square)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/creature-cache?style=flat-square)
 
 
 An in-memory cache that can be restored/rehydrated (brought back to life) via a string or array to rebuild
