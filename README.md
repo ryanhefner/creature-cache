@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/ryanhefner/creature-cache/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/creature-cache?branch=master)
 [![CircleCI](https://circleci.com/gh/ryanhefner/creature-cache.svg?style=shield)](https://circleci.com/gh/ryanhefner/creature-cache)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ryanhefner/creature-cache.svg)](https://greenkeeper.io/)
+
 
 An in-memory cache that can be restored/rehydrated (brought back to life) via a string or array to rebuild
 the cache Map.
