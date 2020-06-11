@@ -1,6 +1,6 @@
 {
   "name": "creature-cache",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A cache that can be generated server-side and brought back to life client-side.",
   "repository": "ryanhefner/creature-cache",
   "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
