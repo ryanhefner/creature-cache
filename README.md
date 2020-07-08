@@ -1,9 +1,9 @@
 # 🧟‍♂️ creature-cache
 
-![npm](https://img.shields.io/npm/v/creature-cache?style=flat-square)
-![NPM](https://img.shields.io/npm/l/creature-cache?style=flat-square)
-![npm](https://img.shields.io/npm/dt/creature-cache?style=flat-square)
-![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/creature-cache?style=flat-square)
+[![npm](https://img.shields.io/npm/v/creature-cache?style=flat-square)](https://www.pkgstats.com/pkg:creature-cache)
+[![NPM](https://img.shields.io/npm/l/creature-cache?style=flat-square)](https://www.pkgstats.com/pkg:creature-cache)
+[![npm](https://img.shields.io/npm/dt/creature-cache?style=flat-square)](https://www.pkgstats.com/pkg:creature-cache)
+[![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/creature-cache?style=flat-square)](https://coveralls.io/github/ryanhefner/creature-cache)
 ![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/creature-cache?style=flat-square)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/creature-cache?style=flat-square)
 
